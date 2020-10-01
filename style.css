@@ -1,0 +1,76 @@
+img{
+	float:right;
+	right: 50px;
+	top: 50px;
+	max-width: 20rem;
+	padding-top: .5rem;
+  	padding-right: .5rem;
+  	padding-bottom: .5rem;
+  	padding-left: .5rem;
+}
+header{
+	font-size:5rem;
+	font-style: bold;
+}
+title{
+	font-size: 200%;
+}
+html{
+	height: 100%;
+}
+body{
+	background-color: rgba(131, 168, 109);
+	border-style: double;
+	border-width: thick;
+	border-color: rgba(87, 117, 88);
+	height: 100%;
+	margin-left:10rem;
+}
+.right{
+	float:right;
+}
+p{
+	left:100px;
+	font-family: Arial;
+	font-size: 200%;
+	font-style: bold;
+	margin-left: 100px;
+}
+p.left{
+	margin-left:100px;
+	max-width: 20rem;
+	padding-top: .5rem;
+  	padding-right: .5rem;
+  	padding-bottom: .5rem;
+  	padding-left: .5rem;
+	
+}
+
+.sidenav {
+	padding: 2px 0;
+	position: fixed;
+	height: 100%;
+	width: 160px;
+	top: .5rem;
+	bottom: .5rem;
+	left: 0;
+	background-color: rgba(87, 117, 88); 
+  	padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 15px 10px 10px 16px;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #F24C29;
+}
+
+.main {
+  margin-left: 160px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+}
