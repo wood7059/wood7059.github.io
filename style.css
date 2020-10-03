@@ -28,6 +28,7 @@ body{
 }
 .right{
 	float:right;
+	width: 150px;
 }
 p{
 	left:100px;
@@ -36,13 +37,14 @@ p{
 	font-style: bold;
 	margin-left: 100px;
 }
-p.left{
+.left{
 	margin-left:100px;
-	max-width: 20rem;
+	max-width: 100rem;
 	padding-top: .5rem;
   	padding-right: .5rem;
   	padding-bottom: .5rem;
   	padding-left: .5rem;
+	clear: both;
 	
 }
 
