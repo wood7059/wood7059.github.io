@@ -1,3 +1,4 @@
+
 img{
 	float:right;
 	right: 50px;
@@ -20,9 +21,6 @@ html{
 }
 body{
 	background-color: rgba(131, 168, 109);
-	border-style: double;
-	border-width: thick;
-	border-color: rgba(87, 117, 88);
 	height: 100%;
 	margin-left:10rem;
 }
@@ -49,15 +47,11 @@ p{
 }
 
 .sidenav {
-	padding: 2px 0;
-	position: fixed;
-	height: 100%;
-	width: 160px;
-	top: .5rem;
-	bottom: .5rem;
-	left: 0;
-	background-color: rgba(87, 117, 88); 
-  	padding-top: 20px;
+    top: .5rem;  
+    position: fixed;
+    left: 0;
+    background-color: rgba(87, 117, 88);
+   
 }
 
 .sidenav a {
@@ -66,13 +60,26 @@ p{
   color: black;
   display: block;
 }
+@media only screen and (max-width: 600px) {
+.sidenav {
+	position: fixed;
+      display: flex;
+    top: .5rem;
+    background-color: rgba(87, 117, 88);
+    padding-top: 20px;
+    
+}
+body {
+	top:10rem;
+    	background-color: rgba(131, 168, 109);
+	margin-left:0rem;
+}
+}
 
 .sidenav a:hover {
   color: #F24C29;
 }
 
 .main {
-  margin-left: 160px; 
   font-size: 28px; 
-  padding: 0px 10px;
 }
