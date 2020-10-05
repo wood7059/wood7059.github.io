@@ -60,6 +60,14 @@ p{
   color: black;
   display: block;
 }
+
+.sidenav a:hover {
+  color: #F24C29;
+}
+
+.main {
+  font-size: 28px; 
+}
 @media only screen and (max-width: 600px) {
 .sidenav {
 	position: fixed;
@@ -69,17 +77,14 @@ p{
     padding-top: 20px;
     
 }
+h1{
+font-size:5rem;
+}
 body {
 	top:10rem;
     	background-color: rgba(131, 168, 109);
 	margin-left:0rem;
 }
-}
-
-.sidenav a:hover {
-  color: #F24C29;
-}
-
-.main {
-  font-size: 28px; 
+header{
+	padding-top: 5rem;
 }
